@@ -1,0 +1,46 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Private credentials - NEVER upload
+.env
+.env.*
+!.env.example
+youtube_client_secret.json
+youtube_token.json
+client_secret*.json
+token*.json
+
+# Generated videos and uploads
+uploads/
+outputs/
+app/uploads/
+app/outputs/
+
+# Generated projects and temporary files
+projects/
+app/projects/
+*.log
+*.tmp
+
+# AI model weights
+models/*.bin
+models/*.pt
+models/*.pth
+models/*.safetensors
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
